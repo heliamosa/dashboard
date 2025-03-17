@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "./", // Allow searching in the root folder
+    "module": "NodeNext",
+    "target": "ES2022",
+    "strict": true
+  },
+  "include": ["src", "server", "index.ts"],
+  "exclude": ["node_modules", "dist"]
+}
